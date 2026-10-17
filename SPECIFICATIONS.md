@@ -4,6 +4,8 @@
 **Classification:** Technical Specification Document (SRS / Engineering Spec)  
 **System Designation:** `OrbitIQ: Autonomous Launch Risk & Booster Recovery Intelligence Platform`  
 **Domain:** Aerospace Telemetry, Machine Learning Classification & Mission Economics  
+**Production Endpoint:** [https://orbit-iq.streamlit.app/](https://orbit-iq.streamlit.app/)  
+**Source Repository:** [https://github.com/SainBux-HadiSeelro/orbit-iq](https://github.com/SainBux-HadiSeelro/orbit-iq)  
 
 ---
 

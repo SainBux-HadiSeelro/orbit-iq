@@ -5,6 +5,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Live App](https://img.shields.io/badge/Live%20Demo-orbit--iq.streamlit.app-38bdf8?style=for-the-badge&logo=streamlit&logoColor=white)](https://orbit-iq.streamlit.app/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Status](https://img.shields.io/badge/System-Production%20Ready-00C853?style=for-the-badge&logo=statuspage&logoColor=white)]()
@@ -14,7 +15,7 @@
 
 **A mission-critical predictive intelligence engine combining orbital flight telemetry, regularized machine learning, and multi-million dollar aerospace financial modeling.**
 
-[🚀 Explore Live Demo](#-live-demo--deployment) • [📑 System Specifications](SPECIFICATIONS.md) • [📊 Historical Telemetry Dataset](cleaned_data_spacex_h.csv) • [🛠️ Report Issue](https://github.com/SainBux-HadiSeelro/orbit-iq/issues)
+[🚀 **Launch Live Demo (Streamlit)**](https://orbit-iq.streamlit.app/) • [📑 System Specifications](SPECIFICATIONS.md) • [📊 Historical Telemetry Dataset](cleaned_data_spacex_h.csv) • [🛠️ Report Issue](https://github.com/SainBux-HadiSeelro/orbit-iq/issues)
 
 </div>
 
@@ -243,16 +244,21 @@ docker run -p 8501:8501 orbitiq:latest
 
 ---
 
-## 🌐 Deployment Guide
+## 🌐 Deployment & Live Access
 
-### Deploying to Streamlit Community Cloud (Recommended)
-1. Fork or push this repository to your personal GitHub account.
+### 🔴 Official Production URL
+OrbitIQ is live and deployed in production on Streamlit Community Cloud:
+
+👉 **[https://orbit-iq.streamlit.app/](https://orbit-iq.streamlit.app/)**
+
+### Self-Hosting on Streamlit Community Cloud
+1. Fork or push this repository to your GitHub account (`SainBux-HadiSeelro/orbit-iq`).
 2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/).
 3. Click **"New App"** and select:
-   - **Repository:** `your-username/orbitiq` (or chosen repo name)
+   - **Repository:** `SainBux-HadiSeelro/orbit-iq`
    - **Branch:** `main`
    - **Main file path:** `spacex_app.py`
-4. Click **Deploy**. The app will build and provide a public URL in under 2 minutes.
+4. Click **Deploy**. The app will build and initialize using `.streamlit/config.toml` automatically.
 
 ---
 
